@@ -1,0 +1,29 @@
+{
+  "name": "asset-loader",
+  "version": "0.1.0",
+  "description": "Utility to lazy load and manage JS and CSS assets using Promises",
+  "author": "Garth Poitras <garth22@gmail.com> (http://garthpoitras.com/)",
+  "license": "MIT",
+  "repository": "https://github.com/gdub22/asset-loader.git",
+  "main": "asset-loader",
+  "keywords": [
+    "assets",
+    "promise",
+    "lazy",
+    "load"
+  ],
+  "scripts": {
+    "test": "gulp ci"
+  },
+  "devDependencies": {
+    "gulp": "^3.7.0",
+    "gulp-concat": "~2.2.0",
+    "gulp-footer": "^1.0.4",
+    "gulp-header": "^1.0.2",
+    "gulp-jshint": "~1.5.5",
+    "gulp-qunit": "~0.3.3",
+    "gulp-rename": "~1.2.0",
+    "gulp-size": "~0.3.1",
+    "gulp-uglify": "~0.3.0"
+  }
+}
